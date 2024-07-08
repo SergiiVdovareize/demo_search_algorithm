@@ -16,7 +16,7 @@ For example:
 - `node src/main -t "free sea"`
 
 ## 3. Expected improvements
-1. Add levels of abstraction like:
+1. Add levels of abstraction to split the code like:
     - data for similar tables seeder
     - sql query composer
     - fetched data processor
