@@ -3,8 +3,8 @@
     "initdb": "npx knex migrate:latest && npx knex seed:run",
     "search0": "node src/main.js",
     "search1": "node src/main.js -t \"london sushi\"",
-    "search2": "node src/main.js -t \"a vegan   ramen  in the   london\"",
-    "search3": "node src/main.js -t \"a vegan   ramen  in the   on\"",
+    "search2": "node src/main.js -t \"the vegan   ramen  in   london\"",
+    "search3": "node src/main.js -t \"a veg  in   est\"",
     "search4": "node src/main.js -t \"veg  london\"",
     "search5": "node src/main.js -t \"london vegan sushi\""
   },
