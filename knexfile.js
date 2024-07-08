@@ -10,7 +10,7 @@ module.exports = {
       host: '127.0.0.1',
       user: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
-      database: 'foodstyles'
+      database: process.env.DB_NAME
     },
     migrations: {
       directory: './migrations'
