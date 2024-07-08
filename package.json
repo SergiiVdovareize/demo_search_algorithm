@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "initdb": "npx knex migrate:latest && npx knex seed:run",
+    "search0": "node src/main.js",
+    "search1": "node src/main.js -t \"london sushi\"",
+    "search2": "node src/main.js -t \"a vegan   ramen  in the   london\"",
+    "search3": "node src/main.js -t \"a vegan   ramen  in the   on\"",
+    "search4": "node src/main.js -t \"veg  london\"",
+    "search5": "node src/main.js -t \"london vegan sushi\""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "knex": "^3.1.0",
+    "pg": "^8.12.0",
+    "csv-parser": "^3.0.0",
+    "minimist": "^1.2.8"
+  }
+}
