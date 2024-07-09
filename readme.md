@@ -21,7 +21,7 @@ For example:
     - sql query composer
     - fetched data processor
 2. Add more complex input data validator:
-    - smarted node script args validator
+    - smarter node script args validator
     - smarter term sanitizer
     - smarted term splitter to deal with prepositions like `on`, `at`, `in`, etc
 3. Improve SQL query to group data by table
